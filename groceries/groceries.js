@@ -7,7 +7,7 @@ $( document ).ready( function() {
     var $item = $("#grocery-input").val();
     $("#grocery-input").val("");
     console.log($item);
-    $( ".groceries" ).append("<li " + "class='item" + 1 + "'" + ">" + $item + "</li>");
+    $( ".groceries" ).append("<li " + "class='item" + 1 + "'>" + $item + "</li>");
   });
 
 });
